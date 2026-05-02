@@ -1,0 +1,13 @@
+debug/I_tetro.o
+debug/J_tetro.o
+debug/L_tetro.o
+debug/O_tetro.o
+debug/S_tetro.o
+debug/T_tetro.o
+debug/Z_tetro.o
+debug/game.o
+debug/grid.o
+debug/main.o
+debug/mainwindow.o
+debug/tetromino.o
+debug/moc_mainwindow.o

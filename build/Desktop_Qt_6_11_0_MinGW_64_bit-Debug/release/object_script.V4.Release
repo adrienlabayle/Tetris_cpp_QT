@@ -1,0 +1,13 @@
+release/I_tetro.o
+release/J_tetro.o
+release/L_tetro.o
+release/O_tetro.o
+release/S_tetro.o
+release/T_tetro.o
+release/Z_tetro.o
+release/game.o
+release/grid.o
+release/main.o
+release/mainwindow.o
+release/tetromino.o
+release/moc_mainwindow.o
