@@ -2,6 +2,17 @@
 
 Tetris game developed in C++ using the Qt framework as part of an engineering school project (Polytech Clermont – IMDS).
 
+## Documentation
+
+A complete set of documentation is available in the `manuels_&_rapport` folder:
+
+- Developer manual (detailed architecture and implementation)
+- User manual
+- Full project report
+
+These documents include UML diagrams, design choices, and detailed explanations of the system.  
+Note: documentation is written in French.
+
 ## Preview
 
 ### Main Menu
@@ -34,18 +45,6 @@ The application includes multiple screens (menu, game, pause, end, settings) and
 - Background music
 - Keyboard and mouse controls
 - Pause and resume system
-
----
-
-## Controls
-
-- Arrow keys:
-  - Left / Right → Move piece
-  - Down → Soft drop
-- Space → Hard drop
-- Mouse:
-  - Left click → Rotate left
-  - Right click → Rotate right
 
 ---
 
@@ -85,7 +84,7 @@ Represents the game board:
 Represents game pieces:
 - 7 types (I, J, L, O, S, T, Z)
 - 4 rotation states
-- Stored as 4x4 matrices
+- Stored as 4x4x4 matrices
 - Movement and rotation logic
 
 ---
@@ -121,25 +120,6 @@ A projection of the current tetromino is computed by simulating its fall until c
 
 - Game state is saved into a text file
 - Allows resuming a previous game
-- Handles missing or invalid save files gracefully
-
----
-
-## Project Structure
-
-    /src            -> Core logic (Game, Grid, Tetromino)
-    /ui             -> Qt interface (MainWindow)
-    /assets         -> Images and resources
-    main.cpp        -> Entry point
-    V3.pro          -> Qt project configuration
-
----
-
-## How to Run
-
-1. Open the project with Qt Creator
-2. Build the project
-3. Run the application
 
 ---
 
